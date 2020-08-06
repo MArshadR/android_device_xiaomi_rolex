@@ -204,3 +204,5 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the common proprietary files
 -include vendor/xiaomi/rolex/BoardConfigVendor.mk
+
+TARGET_SUPPORTS_PIXEL_WALLPAPER := false
