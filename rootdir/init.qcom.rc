@@ -396,6 +396,9 @@ service vendor.contexthub-hal-1-0 /vendor/bin/hw/android.hardware.contexthub@1.0
     group system
     disabled
 
+    # RIL daemon
+    start ril-daemon
+
 # Modify by AMT.meng.lv,04/2/2019, update "vulkan and opengles issue between 8917 and 8937 chips"'s solution begin
 on property:ro.product.board=MSM8917
     # vulkan related libs
